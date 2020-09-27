@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c79d008b7e.js" crossorigin="anonymous"></script>
+    <script>
+    var a = document.getElementById('tfnewsearch');
+    a.addEventListener('submit',function(e) {
+        e.preventDefault();
+        var b = document.getElementById('tftextinput').value;
+        window.location.href ="#"+b;
+
+    });
+
+</script>
+    <title>Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+   
+    <header>
+        <i id="work" class="fas fa-chalkboard-teacher"> 
+            <p class="text"> WORKING PANEL</p> 
+        </i>      
+        
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Test1</a></li>     
+                    <li style="margin: 0%;"><a href="#">Test2</a></li>  
+                    <li style="margin: 0%;"><a href="#">Test3</a></li>        
+                </ul>
+            </nav>
+
+            <div class="dropdown">
+              <button class="dropbtn"> <i class="fas fa-user-circle"></i> USER
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">TEST1</a>
+                <a href="#">TEST2</a>
+                <a href="#">TEST3</a>
+              </div>
+            </div> 
+
+            
+    </header>
+
+
+
+<div class="main">
+
+
+
+<div class="left-panel-main">
+
+  <div id="tfheader">
+    <form id="tfnewsearch" method="get" action="#">
+        <input type="text" class="tftextinput" id="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+    </form>
+<div class="tfclear"></div>
+</div>
+
+    <div class="left-panel">
+
+      <lo class="JD"><i class="fas fa-tachometer-alt"></i> <a>Dashboard</a></lo>
+
+      <ol class="options">
+        <li class="optionsli"><a class="red" href="#"> </i>User managment  <i class="fa fa-caret-down"></i></a>
+          <ul class="optionsul">
+            <li class="optionsli"><a class="red" href="#">ADD</a></li>
+            <li class="optionsli"><a class="red" href="#">DELETE</a></li>
+            <li class="optionsli"><a class="red" href="#">EDIT</a></li>
+
+          </ul>
+        </li>
+        </ol>
+
+
+
+
+        
+
+
+        <div class="label">
+
+          
+         
+          <ul class="menu-user">
+            
+             
+  
+             
+            
+            <lo><a>Cloud Storage Environment Settings</a></lo>
+            <lo><a>Authentication</a></lo>
+          </ul>
+
+
+
+          
+
+      <ol class="options">
+        <li class="optionsli"><a class="red" href="#"> </i> Opcjonalne <i class="fa fa-caret-down"></i></a>
+          <ul class="optionsul">
+            <li class="optionsli"><a class="red" href="#">ADD</a></li>
+            <li class="optionsli"><a class="red" href="#">DELETE</a></li>
+            <li class="optionsli"><a class="red" href="#">EDIT</a></li>
+
+          </ul>
+        </li>
+        </ol>
+         
+          <ul class="menu-list1">
+            <li><a>Payments</a></li>
+            <li><a>Transfers</a></li>
+            <li><a>Balance</a></li>
+          </ul>
+
+
+        </div>
+
+       
+      </div>
+      
+
+      <div id="left-panel-down">
+        <a class="ctd" href="#"><button id="loggin">Login</button></a>
+        
+      </div>
+    </div>
+
+
+
+
+
+<div class="right-panel">
+        
+</div>
+
+</div>
+
+
+     
+        
+     
+
+
+
+</body>
+</html>

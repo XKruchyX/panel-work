@@ -1,0 +1,55 @@
+
+body {
+    margin: 0%;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.main {     
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+    z-index: 0;
+   
+    
+}
+
+.left-panel-main {
+width:15% ;
+min-height: 100%;
+margin: 0 auto;
+position: fixed;
+background-color:rgb(51, 50, 50);
+float: left;
+
+    
+}
+
+.left-panel {
+    padding: 0%;
+    
+}
+
+#left-panel-down {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    height: 90px;
+    background-color:rgb(42, 42, 44);
+    color: white;
+    align-items: center;
+    display: flex;
+   } 
+
+.right-panel {
+width: 85%;
+height: 100%;
+display: flex;
+float: right;
+margin: 0%;
+
+
+ }

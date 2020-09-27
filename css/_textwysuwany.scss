@@ -1,0 +1,73 @@
+.options {
+    list-style-type:none;
+    padding:0;
+    background-color:#FFF;
+    font-size:18px;
+    line-height:2em;
+    position: relative;
+    top: 20px;
+    
+    
+    
+   
+  }
+
+   
+.optionsul {
+    text-align:left; 
+    
+
+   
+}
+
+
+
+
+  .options  {
+    display:block;
+    text-decoration:none;
+    color: rgb(189, 178, 178);
+    padding-left: 16px;
+   
+    
+  }
+
+
+  .options > .optionsli {
+    float:left;
+    background-color:rgb(51, 50, 50);
+    width: 100%;
+    
+  }
+
+  .options > .optionsli:hover {
+    background-color:rgb(51, 50, 50);
+  }
+
+  .options > .optionsli:hover > .red {
+    color:#09C;
+  }
+  .options> .optionsli:hover > .optionsul {
+    display:block;
+  }
+
+  .options > .optionsli > .optionsul {
+    display:none;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+  }
+  .options > .optionsli > .optionsul > .optionsli {
+    position:relative;
+    background-color:rgb(51, 50, 50);
+  }
+
+
+
+
+  .JD {
+      position: relative;
+      top: 15px;
+      padding-left: 10px;
+      cursor: pointer;
+  }

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import './header';
+@import './nav';
+@import './dropdown';
+@import './main';
+@import './login';
+@import './logopanel';
+@import './labeltext';
+@import './textwysuwany';
+@import './media';
+
+
+@media screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+    }
+
+    .left-panel-main {
+        width: 30%;
+        margin: 0%;
+        padding: 0%;
+        
+        
+    }
+
+    .right-panel {
+        width: 70%;
+    }
+
+    #work {
+        width: 30% ;
+
+        
+        
+    }
+
+    .text {
+        margin: 0%;
+        width: 60px;
+        
+    }
+    nav {
+        left:190px;
+        
+    }
+
+    #left-panel-down {
+        width: 30%;
+    }
+
+    #loggin {
+        margin-left: 10px;
+    }
+
+
+  
+   
+
+}
+
+li, a  {
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: rgb(235, 243, 247);
+text-decoration: none;
+position: relative;
+
+}
+
+.cta {
+position: fixed;
+display: flex;
+left: 92%; 
+}
+
+.fa-chalkboard-teacher:before {
+    padding-left: 25px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color: rgb(189, 178, 178);
+   
+}
+
+.fas.fa-tachometer-alt {
+    color: rgb(235, 243, 247);
+    padding-right: 1px;
+}
+
+
+  
+  
+#tfheader {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    background-color:rgb(42, 42, 44);
+}
+
+.menu-user {
+    top: 40px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+
+.menu-list1 {
+    top: 70px;
+    position: relative;
+}
+
+           
+
+
+
+
+
+
+
+
+     
+
+     
+
